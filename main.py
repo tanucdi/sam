@@ -1,0 +1,6 @@
+f=open('t.txt.txt','w+')
+print(f.tell())
+f.write('bhebcjhecbkjecnjkcnjkcnkcnjknchjebcje')
+print(f.tell())
+f.seek(-2,1)
+print(f.tell())
